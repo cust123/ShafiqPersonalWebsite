@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Shafiq | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body class="bg-slate-900 text-gray-300 font-inter">
+    <!-- nav bar section starts here  -->
+    <section id="Navigation">
+      <nav
+        class="w-full h-16 bg-slate-900 flex justify-between px-10 items-center md:px-4 mt-6"
+      >
+        <!-- Navigation Links -->
+        <ul
+          class="hidden md:flex ml-9 items-center font-semibold text-customColor font-inter space-x-6"
+        >
+          <li class="cursor-pointer hover:text-gray-400">
+            <a href="#about">About</a>
+          </li>
+          <li class="cursor-pointer hover:text-gray-400">
+            <a href="#areasofexpertise">Areas of Expertise</a>
+          </li>
+          <li class="cursor-pointer hover:text-gray-400">
+            <a href="#work">Work</a>
+          </li>
+          <li class="cursor-pointer hover:text-gray-400">
+            <a href="#research">Research</a>
+          </li>
+          <li class="cursor-pointer hover:text-gray-400">
+            <a href="#education">Education</a>
+          </li>
+          <li class="cursor-pointer hover:text-gray-400">
+            <a href="#certifications">Certifications</a>
+          </li>
+          <li class="cursor-pointer hover:text-gray-400">
+            <a href="#articles">Articles</a>
+          </li>
+        </ul>
+        <!-- Resume Button -->
+        <div
+          id="resume"
+          class="hidden md:block px-4 py-2 border border-customColor text-customColor rounded font-bold cursor-pointer font-inter hover:bg-customColor hover:text-gray-800 transition duration-300"
+        >
+          <a
+            id="resume-link"
+            href="/dist/assists/MuhammadshafiqResume.pdf"
+            target="_blank"
+            >Download Resume</a
+          >
+        </div>
+        <!-- Mobile Menu Icon -->
+        <div class="md:hidden">
+          <a class="text-3xl text-customColor" href="#">&#8801;</a>
+        </div>
+      </nav>
+
+      <!-- Mobile Navigation Links -->
+      <ul
+        id="mobileNavLinks"
+        class="flex-col md:hidden flex items-center font-semibold text-customColor font-inter space-y-6 mt-4"
+      >
+        <li class="cursor-pointer hover:text-gray-400">
+          <a href="#about">About</a>
+        </li>
+        <li class="cursor-pointer hover:text-gray-400">
+          <a href="#areasofexpertise">Areas of Expertise</a>
+        </li>
+        <li class="cursor-pointer hover:text-gray-400">
+          <a href="#work">Work</a>
+        </li>
+        <li class="cursor-pointer hover:text-gray-400">
+          <a href="#research">Research</a>
+        </li>
+        <li class="cursor-pointer hover:text-gray-400">
+          <a href="#education">Education</a>
+        </li>
+        <li class="cursor-pointer hover:text-gray-400">
+          <a href="#certifications">Certifications</a>
+        </li>
+        <li class="cursor-pointer hover:text-gray-400">
+          <a href="#articles">Articles</a>
+        </li>
+      </ul>
+    </section>
+    <!-- navbar sections ends here  -->
+
+    <!-- About Me starts here -->
+
+    <section id="about">
+      <header
+        class="w-full h-auto flex flex-col md:flex-row items-center md:items-start md:justify-between px-4 md:px-10 py-12 font-inter"
+      >
+        <!-- Text Section -->
+        <div class="md:w-1/2">
+          <h1
+            id="name"
+            class="font-extrabold font-inter text-4xl md:text-5xl text-customColor"
+          ></h1>
+          <h6 id="roles" class="text-lg md:text-lg mt-4 text-gray-300"></h6>
+          <div
+            id="bioContainer"
+            class="mt-6 text-gray-300 text-base md:text-lg leading-relaxed"
+          ></div>
+        </div>
+        <!-- Image and Social Icons Section -->
+        <div
+          class="mt-10 md:mt-0 md:ml-10 flex flex-col items-center shadow-2xl"
+        >
+          <img
+            id="profileImage"
+            class="w-48 h-48 md:w-60 md:h-60 rounded-full object-cover"
+            src=""
+            alt="Profile image"
+          />
+          <div class="mt-10 flex space-x-4" id="socialLinks">
+            <!-- Social links will be dynamically inserted here -->
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- about me  ends here -->
+
+    <!-- areas of expertise and technical roles  Starts  -->
+
+    <section id="areasofexpertise">
+      <div class="w-full h-auto flex flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-col items-center text-center p-10">
+          <h6 class="font-inter font-semibold text-customColor text-2xl">
+            This is What I Love to Do
+          </h6>
+          <div
+            class="w-36 h-1 border-b-4 mt-1 border-customColor rounded-xl md:mt-2"
+          ></div>
+        </div>
+        <!-- Cards container -->
+        <div
+          id="expertiseCards"
+          class="w-full flex flex-wrap md:flex-no-wrap font-inter justify-evenly md:gap-x-4 shadow-2xl"
+        >
+          <!-- Dynamic cards will be inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- areas of expertise and technical roles Ends  -->
+
+    <!-- experience and work section starts here -->
+    <section id="work">
+      <div class="w-full h-auto flex flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-col items-center text-center p-10">
+          <h4 class="font-inter font-semibold text-customColor text-3xl">
+            Experience
+          </h4>
+          <div
+            class="w-36 h-1 border-b-4 mt-1 border-customColor rounded-xl md:mt-2"
+          ></div>
+        </div>
+
+        <!-- Cards container -->
+        <div id="experienceCards" class="w-full max-w-4xl"></div>
+
+        <!-- Collapsible Experience Cards -->
+        <div class="w-full max-w-4xl">
+          <details class="mb-4">
+            <summary
+              class="cursor-pointer text-xl font-semibold text-customColor"
+            >
+              Previous Experiences
+            </summary>
+            <!-- Dynamic collapsible cards will be inserted here -->
+            <div id="previousExperienceCards" class="mt-4"></div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- experience and work section ends here -->
+
+    <!-- research starts here  -->
+    <section id="research">
+      <div class="w-full h-auto flex flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-col items-center text-center p-10">
+          <h4 class="font-inter font-semibold text-customColor text-3xl">
+            Research and Development
+          </h4>
+          <div
+            class="w-36 h-1 border-b-4 mt-1 border-customColor rounded-xl md:mt-2"
+          ></div>
+        </div>
+
+        <!-- First Research Card -->
+        <div
+          class="w-full max-w-4xl bg-darkblue p-6 rounded-lg shadow-lg mb-8 border border-gray-700 hover:shadow-xl hover:border-teal-400 transition duration-300"
+        >
+          <div class="w-full flex items-center mb-4">
+            <span class="text-gray-400">2018 — 2024</span>
+            <h3 class="ml-4 text-2xl font-normal text-customColor">
+              Software Testing and ML
+            </h3>
+          </div>
+          <p class="text-gray-300 mb-6 text-justify">
+            Build, style, and ship high-quality websites, design systems, mobile
+            apps, and digital experiences for a diverse array of projects for
+            clients including Harvard Business School, Everytown for Gun Safety,
+            Pratt Institute, Koala Health, Vanderbilt University, The 19th News,
+            and more. Provide leadership within engineering department through
+            close collaboration, knowledge shares, and spearheading the
+            development of internal tools. Build, style, and ship high-quality
+            websites, design systems, mobile apps, and digital experiences for a
+            diverse array of projects for clients including Harvard Business
+            School, Everytown for Gun Safety, Pratt Institute, Koala Health,
+            Vanderbilt University, The 19th News, and more. Provide leadership
+            within engineering department through close collaboration, knowledge
+            shares, and spearheading the development of internal tools
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >Software Bugs</span
+            >
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >Software Specification</span
+            >
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >Machine learning</span
+            >
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >Supervised Learning</span
+            >
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >bugs Reports</span
+            >
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >Classification</span
+            >
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >Research Writing</span
+            >
+            <span
+              class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+              >ML Applications</span
+            >
+          </div>
+        </div>
+
+        <!-- Collapsible research Cards -->
+        <div class="w-full max-w-4xl">
+          <details class="mb-4">
+            <summary
+              class="cursor-pointer text-xl font-semibold text-customColor"
+            >
+              Previous Research Activities
+            </summary>
+            <!-- Second research Card -->
+            <div
+              class="bg-darkblue p-6 rounded-lg shadow-lg text-justify mt-4 border border-customColor hover:shadow-xl transition duration-300"
+            >
+              <div class="flex items-center mb-4">
+                <span class="text-gray-400">2016 — 2018</span>
+                <h3 class="ml-4 text-2xl font-semibold text-customColor">
+                  Research Assistant · CSD
+                </h3>
+              </div>
+              <!-- <p class="text-gray-400 mb-2">Junior Engineer</p> -->
+              <p class="text-gray-300 mb-6">
+                Worked on developing and maintaining web applications for
+                various clients, focusing on frontend development and user
+                experience design.Assisted in various development tasks,
+                including bug fixes, feature implementations, and code reviews
+                under the guidance of senior developers
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+                  >Software Quality</span
+                >
+                <span
+                  class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+                  >Software Testing</span
+                >
+                <span
+                  class="px-3 py-1 bg-teal-1000 text-teal-400 rounded-full hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+                  >Software verification</span
+                >
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- research ends here  -->
+
+    <!-- Education section starts here  -->
+    <section id="education">
+      <div class="w-full h-auto flex flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-col items-center text-center p-10">
+          <h4 class="font-inter font-semibold text-customColor text-3xl">
+            Education
+          </h4>
+          <div
+            class="w-36 h-1 border-b-4 mt-1 border-customColor rounded-xl md:mt-2"
+          ></div>
+        </div>
+        <!-- Container for dynamically added education cards -->
+        <div id="education-container" class="w-full max-w-4xl"></div>
+      </div>
+    </section>
+    <!-- Education section ends here  -->
+
+    <!-- certifications starts here  -->
+    <section id="certifications">
+      <div class="w-full h-auto flex flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-col items-center text-center p-10">
+          <h4 class="font-inter font-semibold text-customColor text-3xl">
+            Certifications
+          </h4>
+          <div
+            class="w-36 h-1 border-b-4 mt-1 border-customColor rounded-xl md:mt-2"
+          ></div>
+        </div>
+
+        <!-- Cards container -->
+        <div id="certificationCards" class="w-full max-w-4xl"></div>
+      </div>
+    </section>
+
+    <!-- Certifications ends here  -->
+
+    <!-- Articles and technical Discussions starts here -->
+    <section id="articles">
+      <div class="w-full h-auto flex flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-col items-center text-center p-10">
+          <h4 class="font-inter font-semibold text-customColor text-3xl">
+            Articles and Technical Discussions
+          </h4>
+          <div
+            class="w-36 h-1 border-b-4 mt-1 border-customColor rounded-xl md:mt-2"
+          ></div>
+        </div>
+        <!-- Container for dynamically added articles -->
+        <div id="articles-container" class="w-full max-w-4xl"></div>
+        <!-- Collapsible Articles Container -->
+        <div class="w-full max-w-4xl">
+          <details class="mb-4">
+            <summary
+              class="cursor-pointer text-xl font-semibold text-customColor"
+            >
+              View More Articles
+            </summary>
+            <div id="more-articles-container" class="mt-4"></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- articles and technical Discussions ends here -->
+
+    <!-- footer section  starts here  -->
+    <footer
+      class="w-full bg-darkblue text-gray-300 py-10 border-t border-gray-700"
+    >
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center mb-6"
+        >
+          <h4
+            class="font-inter font-normal text-customColor text-2xl mb-4 md:mb-0"
+          >
+            Contact
+          </h4>
+          <div class="flex flex-col md:flex-row items-center md:space-x-8">
+            <a
+              href="mailto:contact@shafiq.com"
+              class="mb-2 md:mb-0 hover:text-teal-400 transition duration-300"
+            >
+              contact@shafiq.com
+            </a>
+            <a
+              href="tel:+92315916035"
+              class="hover:text-teal-400 transition duration-300"
+            >
+              +92 3159116035
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center pt-6">
+          <p class="text-sm text-gray-400">&copy; 2024. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends here  -->
+
+    <!-- scripts section starts here  -->
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTopBtn">&#8679;</button>
+
+    <script>
+      // Get the button
+      const backToTopBtn = document.getElementById("backToTopBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          backToTopBtn.style.display = "flex";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+
+      // When the user clicks on the button, scroll to the top of the document
+      backToTopBtn.onclick = function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      };
+    </script>
+
+    <script src="custom.js"></script>
+    <script src="aboutMe.js"></script>
+    <script src="myExpertise.js"></script>
+    <script src="myExperience.js"></script>
+    <script src="certification.js"></script>
+    <script src="education.js"></script>
+    <script src="articlesAndDiscussion.js"></script>
+
+    <!-- scripts section ends here -->
+  </body>
+</html>
